@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f8ff;
+}
+
+Header {
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./Images/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: sticky;
+    position: -webkit-sticky;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .face {
+    height: 150px;
+    width: 150px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
