@@ -1,12 +1,20 @@
-
+/* overall styling/body/background image */
 
 * {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
+ 
 
-/* name- navigation/navigation bar */
+}
+  
+  body {
+    background-image: url(../Images/yum.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+/* navigation/navigation bar */
 
 nav {
   background-color: #525e65;
@@ -31,19 +39,52 @@ li a {
   color: #DBE8D4;
   line-height: 50px;
   display: block;
+  font-weight: bold;
 }
-
-
-
 
 li a:hover {
   color: #73CCA8;
   text-decoration: underline;
-
+  text-decoration-thickness: 4px;
 }
 
 li a.active {
   background-color: #04AA6D;
   color: white;
-  text-decoration: underline;
+}
+
+/*name and profile pic */
+
+#name{
+  display: block;
+  text-align: center;
+  font-family: "Josefin Sans",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  text-decoration: none;
+  color: black;
+}
+
+#profile {
+  width: 150px;
+  height: 150px;
+  filter: drop-shadow(0 0 8px blue);
+  border-radius: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+ font-family: bradley hand, cursive;
+  font-size: x-large;
+}
+
+/*About me */
+
+.aside-two {
+  float: right;
+  height: auto;
+  width: 75%;
 }
