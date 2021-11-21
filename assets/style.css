@@ -8,7 +8,7 @@
 
 }
   
-  body {
+body {
     background-image: url(../Images/yum.jpg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,10 +65,14 @@ li a.active {
   color: black;
 }
 
+#name:hover {
+  font-size: 75px;
+}
+
 #profile {
   width: 150px;
   height: 150px;
-  filter: drop-shadow(0 0 8px blue);
+  filter: drop-shadow(0 0 8px black);
   border-radius: 30px;
 }
 
@@ -79,12 +83,51 @@ li a.active {
 .title {
  font-family: bradley hand, cursive;
   font-size: x-large;
+  color: lightpink;
 }
+
+.title:hover {
+  color: black;
+}
+
 
 /*About me */
 
-.aside-two {
-  float: right;
-  height: auto;
-  width: 75%;
+.about {
+  display: inline-block;
 }
+
+.About-me {
+  
+  float: left;
+  width: 20%;
+  padding: 50px;
+  color: black;
+}
+
+.aside-one {
+  float: right;
+  width: 80%;
+  padding: 20px 5%;
+  background-color: aliceblue;
+}
+
+/*work */ 
+ .work{
+   float: left;
+   width: 20%;
+   padding: 10px 5%;
+   column-rule: solid 6px;
+ }
+
+ .aside-two{
+  float: right;
+  width: 80%;
+  padding: 20px 5%;
+ }
+ 
+ /*runbuddy image link */
+ .buddy {
+   width: 100%;
+   height: 350px;
+ }
