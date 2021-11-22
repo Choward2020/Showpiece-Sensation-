@@ -4,16 +4,19 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
- 
+ }
 
-}
+ body {
+   background-color: black;
+ }
   
-body {
+Header {
     background-image: url(../Images/yum.jpg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
   }
+
 /* navigation/navigation bar */
 
 nav {
@@ -53,6 +56,8 @@ li a.active {
   color: white;
 }
 
+
+
 /*name and profile pic */
 
 #name{
@@ -91,43 +96,22 @@ li a.active {
 }
 
 
-/*About me */
-
-.about {
+/*about me*/ 
+.Me {
+  text-align: center;
+  padding: 25px;
+  line-height: 1.5;
   display: inline-block;
+  vertical-align: middle;
 }
 
-.About-me {
-  
-  float: left;
-  width: 20%;
-  padding: 50px;
-  color: black;
+.Me h2 {
+  font-size: 75px;
+  color: whitesmoke;
+
 }
 
-.aside-one {
-  float: right;
-  width: 80%;
-  padding: 20px 5%;
-  background-color: aliceblue;
+.Me p {
+  font-size: 25px;
+  color: aqua;
 }
-
-/*work */ 
- .work{
-   float: left;
-   width: 20%;
-   padding: 10px 5%;
-   column-rule: solid 6px;
- }
-
- .aside-two{
-  float: right;
-  width: 80%;
-  padding: 20px 5%;
- }
- 
- /*runbuddy image link */
- .buddy {
-   width: 100%;
-   height: 350px;
- }
